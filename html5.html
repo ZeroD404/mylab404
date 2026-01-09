@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="utf-8">
+    <title>HTML5 – strona testowa</title>
+
+    <!-- Skalowanie i mobilność -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Minimalny CSS (dozwolony w HTML5) -->
+    <style>
+        body {
+            font-family: system-ui, sans-serif;
+            margin: 1rem;
+        }
+        button {
+            padding: 0.5rem 1rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>HTML5 – pokazówka</h1>
+        <p>To jest prosta strona testowa w HTML5.</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>Formularz</h2>
+
+            <form>
+                <label>
+                    Imię:
+                    <input type="text" placeholder="Wpisz imię">
+                </label>
+                <br><br>
+
+                <button type="submit">Wyślij</button>
+            </form>
+        </section>
+
+        <section>
+            <h2>Akcja</h2>
+            <button onclick="alert('HTML5 działa!')">
+                Kliknij mnie
+            </button>
+        </section>
+    </main>
+
+    <footer>
+        <small>© Test HTML5</small>
+    </footer>
+
+</body>
+</html>
